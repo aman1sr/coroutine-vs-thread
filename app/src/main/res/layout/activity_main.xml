@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+    <Button
+        android:id="@+id/btn_threadCoroutine_diff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Thread vs Coroutine: START with thread"
+        />
+    <Button
+        android:id="@+id/btn_check2Scope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="2 Coroutine Scope created"
+        />
+    <Button
+        android:id="@+id/btn_thread_blocking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Thread Blocking nauture"
+        />
+    <Button
+        android:id="@+id/btn_coroutine_nonblocking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Coroutine Non Blocking Nature"
+        />
+    <Button
+        android:id="@+id/btn_coroutinescope_supervisor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Coroutine Scope vs Supervisor"
+        />
+    <Button
+        android:id="@+id/btn_runblocking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="RunBlocking scope"
+        />
+    <Button
+        android:id="@+id/btn_lifecyclescope_globalscope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Lifecycle Scope vs GlobalScope"
+        />
+
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
